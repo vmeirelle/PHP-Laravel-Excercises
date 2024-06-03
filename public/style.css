@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: var(--base-color-4);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--base-color-3);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--base-color-4);
+}
+
+.card p {
+    color: var(--base-color-1);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.result {
+    font-weight: bold;
+    color: var(--base-color-4);
+}
+
+.card-selection {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.card-selection a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--base-color-3);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-selection a:hover {
+    background-color: var(--base-color-2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--base-color-1);
+}
+
+/* Base Colors */
+:root {
+    --base-color-1: #D4E2B4;
+    --base-color-2: #BEC0B3;
+    --base-color-3: #708F79;
+    --base-color-4: #F8FDF0;
+}
